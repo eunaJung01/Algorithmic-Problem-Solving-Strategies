@@ -27,7 +27,7 @@
 
 <br/>
 
-<p align="center"><img width="650" alt="재귀" src="https://github.com/eunaJung01/Algorithmic-Problem-Solving-Strategies/assets/86337233/0759093c-5a19-4d45-b607-fdb6fe45320c">
+<p align="center"><img width="500" alt="재귀" src="https://github.com/eunaJung01/Algorithmic-Problem-Solving-Strategies/assets/86337233/0759093c-5a19-4d45-b607-fdb6fe45320c">
 
 <br/>
 <br/>
