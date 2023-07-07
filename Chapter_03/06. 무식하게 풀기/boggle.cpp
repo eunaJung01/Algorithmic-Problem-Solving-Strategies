@@ -15,19 +15,26 @@ int N = 0; // 단어의 수
 char board[5][5];
 
 bool hasLetter(int y, int x, const string &word) {
+    // 기저 사례 1: 시작 위치가 범위 밖이면 무조건 실패한다.
     if (y > 5 || x > 5) {
         return false;
     }
+
+    // 기저 사례 2: 첫 글자가 일치하지 않으면 실패한다.
     if (board[y][x] != word[0]) {
         return false;
     }
+
+    // 기저 사례 3: 단어 길이가 1이면 성공한다.
     if (word.size() == 1) {
         return true;
     }
 
+    // 인접한 8 칸을 검사한다.
     for (int direction = 0; direction < 8; ++direction) {
         int ny = y + dy[direction];
         int nx = x + dx[direction];
+        // 다음 칸이 범위 안에 있는지, 첫 글자는 일치하는지는 확인할 필요가 없다.
         if (hasLetter(ny, nx, word.substr(1))) {
             return true;
         }
