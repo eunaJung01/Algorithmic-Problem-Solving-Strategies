@@ -1,6 +1,8 @@
-# 7. 분할 정복, Divide & Conquer
+# 7. 분할 정복
 
 <br/>
+
+## 분할 정복, Divide & Conquer
 
 ≈ 각개 격파
 
